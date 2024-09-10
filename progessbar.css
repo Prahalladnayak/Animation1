@@ -1,0 +1,108 @@
+.pro{
+    height: 25px;
+    width: 90%;
+    background-color: blanchedalmond;
+    border: 2px solid black;  
+    border-radius: 20px;
+    position: relative;
+    left: 5%;
+}
+.probar{
+    text-align: center;
+    color: aliceblue;
+    background-color: darkcyan;
+    height: 100%;
+    width: 50%;
+    border-radius:20px;
+    animation: sonu 3s infinite normal;
+}
+@keyframes sonu{
+    0%{width: 0%;}
+    90%{width:95%;}
+    95%{width: 70%;}
+    100%{width:100%;}
+}
+.loader{
+    height: 200px;
+    width:200px;
+    border:20px solid gray ;
+    border-top: 20px solid rgb(180, 201, 218);
+    border-radius: 50%;
+    position: relative;
+    left:750px;
+    top:60px;
+    animation: silu 3s ease-in-out 0.5s infinite normal ;
+
+}
+@keyframes silu{
+    from{transform: rotate(0deg);
+    }
+    to{transform: rotate(260deg);}
+
+}
+body{
+    background-color: black;
+}
+h3{
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    top:35px;
+    left:95px;
+}
+.dot{
+    height:200px;
+    width:200px;
+    border: 20px dotted white;
+    border-left:8px dotted silver;
+    border-top:15px dotted silver;
+    border-radius:50%;
+    position: relative;
+    top:150px;
+    left:750px;
+    animation: golu 2s ease-in-out 0.5s infinite normal;
+}
+@keyframes golu{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(250deg);}
+}
+#h{
+    color: aliceblue;
+    position: relative;
+    top:140px;
+    left:820px;
+}
+.rec{
+    height:200px;
+    width:200px;
+    border: 20px dotted white;
+    position: relative;
+    top:230px;
+    left:750px;
+    animation: jon 2s ease-in-out 0.5s infinite normal;
+    height: 200px;
+    width: 200px;
+    border: 25px solid rgb(235, 222, 222);  
+    border-radius: 20px;
+    position: relative;
+    left: 720px;
+}
+.sq{
+    text-align: center;
+    color: aliceblue;
+    background-color: darkcyan;
+    height: 100%;
+    width: 50%;
+    border-radius:20px;
+    animation: sonu 3s infinite normal;
+}
+@keyframes jon{
+    0%{transform:rotate(0deg);}
+    100%{transform: rotate(186deg);}
+}
+#he{
+    color: aliceblue;
+    position: relative;
+    top:180px;
+    left:820px;
+}
